@@ -172,7 +172,7 @@ class Cycle(_Entity, _Labeled):
     @_self_reload(_MANAGER_NAME)
     def end_date(self) -> datetime:
         """The date and time of the end of this cycle."""
-        return self._end_date
+        return self._end_date 
 
     @end_date.setter  # type: ignore
     @_self_setter(_MANAGER_NAME)
